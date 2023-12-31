@@ -55,7 +55,7 @@ You can make a request to a Signum Node Api on the following URL:
     ).getSigna();
 
     const nodeFeeSuggestionResponse = await axios
-      .get(nodeHost + "/api?requestType=suggestFee")
+      .get("your-node.com/api?requestType=suggestFee")
       .then((response) => response.data);
 
     const minimal = nodeFeeSuggestionResponse.cheap;
