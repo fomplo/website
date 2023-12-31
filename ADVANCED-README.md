@@ -1,11 +1,13 @@
 
 # Advanced For Devs 🤓
 
-## Requirements
+## Knowledge Requirement
 
-- Signum Blockchain development knowledge
-- Javascript/Typescript knowledge
-- SignumJS knowledge
+- Signum Blockchain development
+- Javascript/Typescript
+- React/Next.JS
+- AWS DynamoDB
+- SignumJS
 - Patience, patience and patience
 
 ## Running Fomplo
