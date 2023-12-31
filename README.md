@@ -15,6 +15,8 @@ There are API Endpoints i made available for the public interested on Signum. pl
 - `/api/edge/mining` Get the latest mining stats from Signum chain
 - `/api/edge/network` Get the latest status from Signum chain
 
+If you use it, let us know how you use it! it can be really awesome for the community!
+
 ### Services
 The fomplo website consists of multiple centralized services in order to provide the best experience for the user. We will classify which centralized tools we use.
 
@@ -25,18 +27,3 @@ The fomplo website consists of multiple centralized services in order to provide
 **Decentralized Tools**
 - SignumJS (Signum `Javascript/Typescript` SDK)
 - Remaining packages on `package.json`
-
-# Advanced
-
-## Running Fomplo
-In order to build your own fomplo app, you need to have setup these centralized services and have the proper schema on the dynamoDB database.
-
-On the folder `/schemas` you'll find a backup of a DynamoDB table i made for running the platform. You may find a way of importing that `csv` file in order to have the same schema.
-
-
-<!-- TODO: Fill this section -->
-## Updating Signum Blockchain Stats
-
-
-## Updating FIAT/Crypto Rates
-I won't share my strategy for updating the FIAT/Crypto rates because i'm getting the data from other centralized services. You already have the template of the DB table there, is up to you to determine how to update those rates.
