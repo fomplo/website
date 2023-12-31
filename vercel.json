@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    {
+      "source": "/burst-mining-calculator",
+      "destination": "/signum-mining-calculator?origin=burst-mining-calculator"
+    }
+  ]
+}

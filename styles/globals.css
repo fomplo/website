@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+/* Nprogress custom styling */
+#nprogress .bar {
+  background: #1d976c !important;
+  height: 4px !important;
+  z-index: 2000 !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.equalSign::selection {
+  color: none;
+  background: none;
+}
+
+.equalSign::-moz-selection {
+  color: none;
+  background: none;
+}
