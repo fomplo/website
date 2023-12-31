@@ -5,7 +5,7 @@ fomplo-services
 - Partition Key: service (String)
 - Sort Key: main (String)
 
-### Reading the data
+### Reading the data from a Next.JS App
 
 ### Define Global Variables
 ```typescript
