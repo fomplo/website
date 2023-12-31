@@ -23,6 +23,7 @@ The fomplo website consists of multiple centralized services in order to provide
 **Centralized Tools**
 - DynamoDB (AWS Database)
 - Upstash (Rate Limiting)
+- Netlify (Website Hosting)
 
 **Decentralized Tools**
 - SignumJS (Signum `Javascript/Typescript` SDK)
