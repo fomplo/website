@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { setCookies } from "cookies-next";
+import { setCookie } from "cookies-next";
 import { useAppDispatch, useAppSelector } from "@/states/hooks";
 import { DefaultContainer } from "@/lib/components/Cards/DefaultContainer";
 import { SEOMetaTags } from "@/lib/components/SEOMetaTags";
@@ -84,12 +84,12 @@ export const Converter = ({ cryptoKey, sValueKey, data }: Props) => {
     const expDate = new Date();
     expDate.setTime(expDate.getTime() + 60000 * 60 * 1000);
 
-    setCookies("crypto", isLoading ? cryptoKey : selectedCrypto, {
+    setCookie("crypto", isLoading ? cryptoKey : selectedCrypto, {
       path: "/",
       expires: expDate,
     });
 
-    setCookies("svalue", isLoading ? sValueKey : selectedSValue, {
+    setCookie("svalue", isLoading ? sValueKey : selectedSValue, {
       path: "/",
       expires: expDate,
     });

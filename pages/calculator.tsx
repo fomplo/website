@@ -28,11 +28,13 @@ const calculator = ({ cryptoKey, sValueKey }: CalculatorProps) => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  const { req, res, query } = ctx;
-
-  let cryptoKey = getCookie("crypto", { req, res }) || "BTC";
-  let sValueKey = getCookie("svalue", { req, res }) || "USD";
+export const getServerSideProps: GetServerSideProps = async ({
+  req,
+  res,
+  query,
+}) => {
+  let cryptoKey = (await getCookie("crypto", { req, res })) || "BTC";
+  let sValueKey = (await getCookie("svalue", { req, res })) || "USD";
 
   // Check if user wants to use different crypto from url
   // @ts-ignore

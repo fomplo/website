@@ -17,7 +17,7 @@ const MenuLink = ({ label, icon, url, newTab }: Props) => {
 
   return (
     <Grid container item>
-      <Link href={url}>
+      <Link href={url} target={newTab ? "_blank" : undefined}>
         <Button
           color={url === pathname ? "primary" : "inherit"}
           fullWidth
@@ -28,8 +28,6 @@ const MenuLink = ({ label, icon, url, newTab }: Props) => {
             p: 2,
             borderRadius: 2,
           }}
-          href=""
-          target={newTab ? "_blank" : undefined}
         >
           {label}
         </Button>

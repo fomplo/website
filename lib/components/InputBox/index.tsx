@@ -31,7 +31,11 @@ export const InputBox = ({
   optionLabel,
   onOptionClick,
 }: Props) => {
-  const largerSize = !!(optionLabel.length && optionLabel.length > 5);
+  const largerSize = !!(
+    optionLabel &&
+    optionLabel.length &&
+    optionLabel.length > 5
+  );
 
   return (
     <Paper

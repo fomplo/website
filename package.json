@@ -27,7 +27,7 @@
     "@upstash/redis": "^1.24.3",
     "aws-sdk": "^2.1384.0",
     "clsx": "^1.1.1",
-    "cookies-next": "^2.1.2",
+    "cookies-next": "^4.1.0",
     "copy-to-clipboard": "^3.3.3",
     "date-fns": "^2.29.3",
     "hashicon": "^0.3.0",
