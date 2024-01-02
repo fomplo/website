@@ -33,8 +33,8 @@ export const getServerSideProps: GetServerSideProps = async ({
   res,
   query,
 }) => {
-  let cryptoKey = (await getCookie("crypto", { req, res })) || "BTC";
-  let sValueKey = (await getCookie("svalue", { req, res })) || "USD";
+  let cryptoKey = getCookie("crypto", { req, res }) || "BTC";
+  let sValueKey = getCookie("svalue", { req, res }) || "USD";
 
   // Check if user wants to use different crypto from url
   // @ts-ignore
