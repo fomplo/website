@@ -41,8 +41,9 @@ export const Summary = ({ loading }: Props) => {
       alignItems="center"
       justifyContent="flex-start"
       sx={{ mt: { xs: 2, lg: 4 } }}
+      gap={2}
     >
-      <Grid item container direction="row" alignItems="center" mb={1.5}>
+      <Grid item container direction="row" alignItems="center">
         <AccountCard />
       </Grid>
 
@@ -67,7 +68,6 @@ export const Summary = ({ loading }: Props) => {
         <Grid
           item
           container
-          mt={2}
           p={1}
           sx={{ background: "#121212", borderRadius: 2 }}
         >
@@ -81,7 +81,7 @@ export const Summary = ({ loading }: Props) => {
         </Grid>
       )}
 
-      <Grid item mb={2}>
+      <Grid item>
         <CashBack />
       </Grid>
     </Grid>
@@ -95,7 +95,6 @@ const LoadingState = () => (
     direction="row"
     alignItems="center"
     justifyContent="center"
-    sx={{ mt: { xs: 2, lg: 10.5 } }}
   >
     <Skeleton
       variant="rectangular"

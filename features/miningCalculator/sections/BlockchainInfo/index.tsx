@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { formatAmount } from "@/lib/utils/functions";
 import { StatCard } from "@/lib/components/StatCard";
+import { VideoEmbed } from "@/lib/components/VideoEmbed";
 
 import Grid from "@mui/material/Grid";
 import Skeleton from "@mui/material/Skeleton";
@@ -43,6 +44,13 @@ export const BlockchainInfo = ({ data }: Props) => {
 
       <Grid item xs={12}>
         <StatCard title="Signum Price (USD)" value={price} />
+      </Grid>
+
+      <Grid item xs={12}>
+        <VideoEmbed
+          href="https://youtu.be/zeIVCKN6Kpo?si=Ba2C7QXwMfvJy6wF"
+          imgSrc="/assets/pages/mining/signum-mining.webp"
+        />
       </Grid>
     </Grid>
   );

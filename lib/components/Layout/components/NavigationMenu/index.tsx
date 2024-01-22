@@ -101,7 +101,7 @@ const NavigationMenu = () => {
               Share
             </Button>
 
-            <Link href="https://github.com/fomplo" target="_blank">
+            <Link href="https://github.com/fomplo/website" target="_blank">
               <Typography
                 align="center"
                 sx={{ display: "inline-block", width: "100%", mt: 1 }}

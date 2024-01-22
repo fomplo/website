@@ -12,6 +12,7 @@ import {
 } from "@/lib/states/walletState";
 import { PageNotAvailable } from "@/lib/components/PageNotAvailable";
 import { CashBack } from "@/lib/components/CashBack";
+import { VideoEmbed } from "@/lib/components/VideoEmbed";
 import { Station } from "./sections/Station";
 import { Summary } from "./sections/Summary";
 
@@ -120,7 +121,7 @@ export const CommitmentStationPage: NextPage = () => {
         mx="auto"
         mt={2}
       >
-        <Grid item xs={12} lg={8}>
+        <Grid container item xs={12} lg={8} gap={2}>
           <Station
             loading={isLoading}
             currentBlockHeight={currentBlockHeight}
@@ -133,6 +134,11 @@ export const CommitmentStationPage: NextPage = () => {
 
         <Grid item xs={12} lg={4} sx={{ pl: { xs: 0, lg: 2 } }}>
           <Summary loading={isLoading} />
+
+          <VideoEmbed
+            href="https://youtu.be/p-jEkv3aGAs?si=5dfF-wCm5dr8-Bn1"
+            imgSrc="/assets/pages/commitment/signum-commitment.webp"
+          />
         </Grid>
       </Grid>
     </Grid>

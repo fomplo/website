@@ -12,7 +12,6 @@ export const CashBack = () => {
   return (
     <Grid
       container
-      mt={2}
       p={2}
       direction="column"
       sx={{ background: "#121212", borderRadius: 2 }}
