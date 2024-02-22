@@ -46,6 +46,13 @@ export default class MyDocument extends Document {
 
           {/* Inject MUI styles first to match with the prepend: true configuration. */}
           {(this.props as any).emotionStyleTags}
+
+          {/* Umami is a simple, fast, privacy-focused alternative to Google Analytics */}
+          <script
+            defer
+            src="https://analytics.us.umami.is/script.js"
+            data-website-id="5aa0d8f1-c3bc-49cf-8545-1522a3305ae4"
+          ></script>
         </Head>
         <body>
           <Main />
