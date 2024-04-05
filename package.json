@@ -33,7 +33,7 @@
     "hashicon": "^0.3.0",
     "localforage": "^1.10.0",
     "lodash": "^4.17.21",
-    "next": "^13.4.8",
+    "next": "^14.1.4",
     "nprogress": "^0.2.0",
     "react": "^18.2.0",
     "react-circular-progressbar": "^2.0.4",
@@ -55,7 +55,7 @@
     "@types/react-dom": "^18.2.14",
     "@types/redux-persist": "^4.3.1",
     "eslint": "8.16.0",
-    "eslint-config-next": "^14.0.1",
+    "eslint-config-next": "^14.1.4",
     "typescript": "4.6.4"
   }
 }
