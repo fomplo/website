@@ -89,24 +89,6 @@ const NavigationMenu = () => {
         alignItems="center"
         rowSpacing={2}
       >
-        <Typography align="center" variant="subtitle2" color="textSecondary">
-          Ad by Fomplo
-        </Typography>
-
-        <Link href="/">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            alt="Videotutorial"
-            src="/assets/add-cta.webp"
-            style={{
-              maxWidth: "100%",
-              height: 200,
-              borderRadius: 8,
-              objectFit: "contain",
-            }}
-          />
-        </Link>
-
         <Grid container item direction="row" spacing={2}>
           <Grid item xs={12}>
             <Button
